@@ -2,7 +2,7 @@
 
 ## ARTICLE I — INTERPRETATION; DEFINITIONS
 
-1.1 “Codebase” shall hereinafter signify the aggregate of all software artifacts, including, inter alia, source code files, configuration manifests, build scripts, documentation, metadata, and any derivative or ancillary materials now or hereafter maintained under version control.
+1.1 “Codebase” shall hereinafter signify the aggregate of all software artifacts, including, *inter alia*, source code files, configuration manifests, build scripts, documentation, metadata, and any derivative or ancillary materials now or hereafter maintained under version control.
 
 1.2 “TODO Segments” shall hereinafter denote those narrowly circumscribed portions of the Codebase expressly demarcated by the literal inscription “TODO” (or any substantially equivalent notation) and designated as the sole permissible loci for Contributor-initiated modification.
 
