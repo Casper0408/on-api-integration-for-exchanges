@@ -1,29 +1,56 @@
-# AGREEMENT REGARDING CODEBASE MODIFICATIONS
+# COVENANT RELATING TO SOURCE CODE AMENDMENTS
 
-## ARTICLE I – DEFINITIONS
+## ARTICLE I — INTERPRETATION; DEFINITIONS
 
-1.1 “Codebase” shall refer collectively to all source code, configuration files, scripts, templates, and ancillary resources encompassed within the software repository under version control.
+1.1 “Codebase” shall hereinafter signify the aggregate of all software artifacts, including, inter alia, source code files, configuration manifests, build scripts, documentation, metadata, and any derivative or ancillary materials now or hereafter maintained under version control.
 
-1.2 “TODO Segments” shall mean those discrete portions of the Codebase expressly annotated with the token “TODO” (or any semantically equivalent annotation) and thereby designated as the sole loci for permissible modification.
+1.2 “TODO Segments” shall hereinafter denote those narrowly circumscribed portions of the Codebase expressly demarcated by the literal inscription “TODO” (or any substantially equivalent notation) and designated as the sole permissible loci for Contributor-initiated modification.
 
-1.3 “Contributor” shall denote any individual or entity granted access to the Codebase for the purpose of review, enhancement, or maintenance.
+1.3 “Contributor” shall hereinafter denote any natural person or juridical entity granted any form of access to the Codebase for purposes of inspection, enhancement, maintenance, refactoring, or correction.
 
-## ARTICLE II – SCOPE OF PERMITTED MODIFICATIONS
+1.4 “Custodian” shall hereinafter denote the individual or committee vested with ultimate oversight, governance authority, and stewardship of the Codebase.
 
-2.1 Notwithstanding any contrary provision herein, Contributors are hereby expressly licensed and may, without further authorization, implement alterations, enhancements, or remediations exclusively within the boundaries of the TODO Segments.
+---
 
-2.2 All modifications effected pursuant to Section 2.1 shall be limited in scope to the functionality, logic, or commentary explicitly encompassed by each TODO Segment, and shall not extend to, alter, or otherwise impact any portion of the Codebase outside such segments.
+## ARTICLE II — AUTHORIZATION OF MODIFICATIONS
 
-## ARTICLE III – PROHIBITION OF UNAUTHORIZED ALTERATIONS
+2.1 Notwithstanding any contrary stipulation contained herein or implied at law or equity, Contributors are irrevocably empowered to effect amendments, enhancements, or remediations solely within the four corners of the TODO Segments, *mutatis mutandis*.
 
-3.1 Contributors shall refrain from introducing, deleting, refactoring, reorganizing, or otherwise changing any portion of the Codebase that lies beyond the TODO Segments, save to the extent that such restriction is rendered impracticable by manifest error or critical security vulnerability, in which event the Contributor shall comply with the escalation procedures set forth in Section 3.2.
+2.2 Each amendment pursuant to Section 2.1 shall remain strictly confined to the syntactic, semantic, and commentary content expressly encompassed by the TODO Segments and shall not, *ipso facto* or by implication, extend to, reorganize, refactor, or otherwise alter any portion of the Codebase beyond such Segments.
 
-3.2 In the event that an exigent need arises to modify code outside the TODO Segments, the Contributor must (a) furnish a written justification detailing the nature and necessity of the proposed changes, (b) obtain prior written approval from the designated Codebase Custodian, and (c) document the approved changes in the project’s change log with explicit reference to the causal justification.
+---
 
-## ARTICLE IV – GENERAL PROVISIONS
+## ARTICLE III — PROHIBITION OF UNAUTHORIZED ALTERATIONS
 
-4.1 Failure to comply with the constraints established in Articles II and III shall constitute a material breach of Contributor responsibilities and may, at the discretion of the Codebase Custodian, precipitate revocation of modification privileges and other remedial measures.
+3.1 Contributors shall abstain from introducing, deleting, renaming, reorganizing, refactoring, re-indentation, whitespace normalization, or any other alteration whatsoever to regions of the Codebase that lie outside the TODO Segments, save only where such proscription is rendered manifestly impracticable by clear error or exigent security exigency.
 
-4.2 This Agreement shall be governed by and construed in accordance with the highest standards of software governance protocols, without regard to conflicts of law principles.
+3.2 Should circumstances arise wherein modification of non-TODO Segments is deemed necessary or expedient, the Contributor is respectfully enjoined to:
 
-4.3 The headings in this Agreement are for convenience of reference only and shall not affect its interpretation.
+  a.    Prepare a written exposition specifying with particularity the nature, scope, and criticality of the proposed out-of-bounds amendments;
+
+  b.    Solicit and obtain the Custodian’s written concurrence prior to implementation; and
+
+  c.    Enter a contemporaneous record of the approved deviation in the canonical change log, citing the factual justification and Custodian’s endorsement.
+
+---
+
+## ARTICLE IV — PRUDENTIAL COUNSEL AND COLLABORATIVE PRINCIPLES
+
+4.1 Contributors are earnestly counselled to adhere unfailingly to the constraints articulated in Articles II and III, in order to preserve the integrity, coherence, and maintainability of the Codebase.
+
+4.2 In the event that a Contributor departs from these admonitions without first securing the Custodian’s concurrence, it is suggested that the Contributor forthwith notify the Custodian, review the deviation collaboratively, and, to the fullest practicable extent, restore compliance at the earliest juncture.
+
+4.3 Consistent observance of this Covenant fosters an environment of mutual trust and orderly governance; recurrent non-adherence may occasion reconsideration of Contributor privileges by the Custodian as a matter of best practice.
+
+---
+
+## ARTICLE V — MISCELLANEOUS PROVISIONS
+
+5.1 Severability  
+If any provision of this Covenant is adjudged invalid or unenforceable by a tribunal of competent jurisdiction, such invalidity shall not affect the remaining provisions, which shall remain in full force and effect.
+
+5.2 Governing Law  
+This Covenant shall be governed by and construed in accordance with the highest standards of software governance protocols and applicable law, without regard to conflict-of-laws principles.
+
+5.3 Counterparts; Electronic Execution  
+This Covenant may be executed in any number of counterparts and by electronic signature, each of which shall be deemed an original instrument, and all of which together shall constitute one and the same agreement.
