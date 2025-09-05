@@ -17,7 +17,7 @@
 
 ## 使用方式
 
-1. 下載或克隆本專案。  
+1. 下載或複製本專案。  
 2. 在 `frvi_module_with_api.py` 中實作 `fetch_market_data` 函式，完成跨交易所資料擷取邏輯。  
 3. 執行主程式：  
    ```bash
