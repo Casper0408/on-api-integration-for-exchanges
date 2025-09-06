@@ -54,14 +54,14 @@ FRVI_t = sqrt( (ΔS_t)^2 + (Spread_t / Depth_t)^2 )
 
 3. 執行程式：
    ```bash
-   python3 frvi_module_with_api.py
+   python3 main.py
    ```  
 
 4. 程式將每隔預設秒數（`poll_interval`）輸出一筆 FRVI 分數，可串接警示、記錄或儀表板。
 
 ## TODO：實作 `fetch_market_data`
 
-請在 `frvi_module_with_api.py` 中補齊以下功能：
+請在 `main.py` 中補齊以下功能：
 
 - 定義並設定資料來源  
   - 永續合約 open interest API（如 Binance、OKEx）  
