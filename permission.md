@@ -1,56 +1,64 @@
-# COVENANT RELATING TO SOURCE CODE AMENDMENTS
-
-## ARTICLE I — INTERPRETATION; DEFINITIONS
-
-1.1 “Codebase” shall hereinafter signify the aggregate of all software artifacts, including, *inter alia*, source code files, configuration manifests, build scripts, documentation, metadata, and any derivative or ancillary materials now or hereafter maintained under version control.
-
-1.2 “TODO Segments” shall hereinafter denote those narrowly circumscribed portions of the Codebase expressly demarcated by the literal inscription “TODO” (or any substantially equivalent notation) and designated as the sole permissible *loci* for Contributor-initiated modification.
-
-1.3 “Contributor” shall hereinafter denote any natural person or juridical entity granted any form of access to the Codebase for purposes of inspection, enhancement, maintenance, refactoring, or correction.
-
-1.4 “Custodian” shall hereinafter denote the individual or committee vested with ultimate oversight, governance authority, and stewardship of the Codebase.
+# Binding Edict Prohibiting Extraneous Amendments to Source Code Save for TODO Segments
 
 ---
 
-## ARTICLE II — AUTHORIZATION OF MODIFICATIONS
+## Article I – Definitions
 
-2.1 Notwithstanding any contrary stipulation contained herein or implied at law or equity, Contributors are irrevocably empowered to effect amendments, enhancements, or remediations solely within the four corners of the TODO Segments, *mutatis mutandis*.
+1.1 “Repository” shall mean the collective corpus of electronic files, directories, build scripts, configuration artifacts, documentation, and ancillary materials maintained under a version control system.  
 
-2.2 Each amendment pursuant to Section 2.1 shall remain strictly confined to the syntactic, semantic, and commentary content expressly encompassed by the TODO Segments and shall not, *ipso facto* or by implication, extend to, reorganize, refactor, or otherwise alter any portion of the Codebase beyond such Segments.
+1.2 “TODO Segments” shall denote those discrete *loci* within the Repository that are expressly annotated with the legend “TODO” or any synonymous rubric prescribed by the Repository Maintainer, demarcating the sole permissible domain for code alteration.  
 
----
+1.3 “Contributor” shall include any individual, partnership, corporation, limited liability company, or other juridical or natural person who submits, proposes, or effectuates any change, enhancement, refactoring, deletion, addition, or other modification to the Repository.  
 
-## ARTICLE III — PROHIBITION OF UNAUTHORIZED ALTERATIONS
-
-3.1 Contributors shall abstain from introducing, deleting, renaming, reorganizing, refactoring, re-indentation, whitespace normalization, or any other alteration whatsoever to regions of the Codebase that lie outside the TODO Segments, save only where such proscription is rendered manifestly impracticable by clear error or exigent security exigency.
-
-3.2 Should circumstances arise wherein modification of non-TODO Segments is deemed necessary or expedient, the Contributor is respectfully enjoined to:
-
-  a.    Prepare a written exposition specifying with particularity the nature, scope, and criticality of the proposed out-of-bounds amendments;
-
-  b.    Solicit and obtain the Custodian’s written concurrence prior to implementation; and
-
-  c.    Enter a contemporaneous record of the approved deviation in the canonical change log, citing the factual justification and Custodian’s endorsement.
+1.4 “Repository Maintainer” shall refer to the natural person or legal entity vested with exclusive authority to govern, supervise, and enforce the terms of this Edict.  
 
 ---
 
-## ARTICLE IV — PRUDENTIAL COUNSEL AND COLLABORATIVE PRINCIPLES
+## Article II – Prohibition on Unauthorized Alterations
 
-4.1 Contributors are earnestly counselled to adhere unfailingly to the constraints articulated in Articles II and III, in order to preserve the integrity, coherence, and maintainability of the Codebase.
+2.1 Subject to the hereinenumerated exceptions, no Contributor shall, directly or indirectly, undertake any alteration, removal, restructuring, refactoring, or augmentation of any portion of the Repository lying outside the confines of the TODO Segments.  
 
-4.2 In the event that a Contributor departs from these admonitions without first securing the Custodian’s concurrence, it is suggested that the Contributor forthwith notify the Custodian, review the deviation collaboratively, and, to the fullest practicable extent, restore compliance at the earliest juncture.
+2.2 Any act contravening Section 2.1 shall be deemed null and void *ab initio* and may, at the election of the Repository Maintainer, be expeditiously reverted, excised, or otherwise rectified without prior notice to the offending party.  
 
-4.3 Consistent observance of this Covenant fosters an environment of mutual trust and orderly governance; recurrent non-adherence may occasion reconsideration of Contributor privileges by the Custodian as a matter of best practice.
+2.3 Contributors shall refrain from submitting or incorporating any patch, pull request, commit, merge, or equivalent record of change that impacts code external to the TODO Segments, save as provided in Article III.  
 
 ---
 
-## ARTICLE V — MISCELLANEOUS PROVISIONS
+## Article III – Permissible Exceptions
 
-5.1 Severability  
-If any provision of this Covenant is adjudged invalid or unenforceable by a tribunal of competent jurisdiction, such invalidity shall not affect the remaining provisions, which shall remain in full force and effect.
+Notwithstanding the absolute tenor of Article II, Contributors may deviate from its strictures only upon satisfaction of each and every one of the following cumulative conditions:  
 
-5.2 Governing Law  
-This Covenant shall be governed by and construed in accordance with the highest standards of software governance protocols and applicable law, without regard to conflict-of-laws principles.
+1. The Contributor shall file, either via electronic mail or version control system issue tracker, a request for amendment delineating with particularity the scope, rationale, and technical exigency of the proposed modification.  
 
-5.3 Counterparts; Electronic Execution  
-This Covenant may be executed in any number of counterparts and by electronic signature, each of which shall be deemed an original instrument, and all of which together shall constitute one and the same agreement.
+2. The Repository Maintainer shall furnish express written authorization, conveyed in a durable medium, approving the exception and specifying the precise Repository loci subject to alteration.  
+
+3. The approved exception shall supervene only upon issuance of a formal authorizing directive bearing the Repository Maintainer’s signature or equivalent electronic endorsement.  
+
+---
+
+## Article IV – Remedies and Sanctions
+
+4.1 In the event of any noncompliance with this Edict, the Repository Maintainer shall possess the irrevocable right, inter alia, to:  
+
+- Revert, purge, or reengineer any unauthorized alterations forthwith and without recourse.  
+- Withhold acceptance of any pull request, patch, or merge request containing proscribed modifications.  
+- Bar the offending Contributor from future submissions, at the Maintainer’s sole discretion.  
+- Pursue any and all remedies available at law or in equity, including but not limited to injunctive relief, specific performance, and recovery of costs incurred in remediation.  
+
+4.2 The foregoing rights and remedies are cumulative, non-exclusive, and shall survive any termination or expiration of this Edict.  
+
+---
+
+## Article V – Governing Law and Jurisdiction
+
+This Edict shall be governed by and construed in accordance with the substantive laws of the jurisdiction in which the Repository Maintainer is domiciled, without regard to choice-of-law or conflict-of-laws principles that would result in the application of any other jurisdiction’s law.  
+
+---
+
+## Article VI – Execution, Severability, and Effective Date
+
+6.1 This Edict may be executed in counterparts, each of which shall be deemed an original, and all of which shall constitute one and the same instrument.  
+
+6.2 If any provision of this Edict is held invalid or unenforceable by a court of competent jurisdiction, the invalidity of such provision shall not affect the validity or enforceability of any other provision.  
+
+6.3 This Edict shall become effective forthwith upon its publication in the root directory of the Repository and shall remain in full force and effect until expressly superseded or revoked by the Repository Maintainer.  
