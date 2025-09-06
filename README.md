@@ -1,5 +1,3 @@
-# FRVI 資金費用波動性指數計算器
-
 ## 專案說明
 
 本專案提供一個可重複使用的 Python 模組，計算自訂義永續合約的資金費用波動性指數（Funding Rate Volatility Index, FRVI）。  
