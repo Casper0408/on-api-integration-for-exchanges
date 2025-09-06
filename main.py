@@ -143,7 +143,7 @@ class FRVICalculator:
 # 3. 處理不同來源的資料格式與單位差異，並加以合併或驗證
 # 4. 處理 API Rate Limit、Timeout、重試與錯誤回補
 # -----------------------------------------------------------------------------
-def fetch_market_data(symbol: str, levels_n: int) -> Tuple[
+def fetch_market_data(symbol: str, levels_n: int, exchange_name: str) -> Tuple[
     float, float, List[Tuple[float, float]], List[Tuple[float, float]]
 ]:
     """
@@ -152,6 +152,7 @@ def fetch_market_data(symbol: str, levels_n: int) -> Tuple[
     Args:
         symbol:    永續合約代號（如 "BTCUSDT"）
         levels_n:  取前 N 層委託簿
+        exchane_name: 交易所名稱
 
     Returns:
         oi_long:  多單未平倉量（彙整後）
@@ -172,6 +173,7 @@ if __name__ == "__main__":
     symbol = "BTCUSDT"        # 永續合約代號
     levels_n = 5              # 前 N 層委託簿
     poll_interval = 60        # 取樣間隔（秒）
+    exchange_name = "Binance" # 交易所名稱
 
     calculator = FRVICalculator(levels_n=levels_n)
     print(f"開始監控 {symbol} 的 FRVI 指數...")
@@ -179,7 +181,7 @@ if __name__ == "__main__":
     while True:
         try:
             # 從 API 取得市場資料
-            oi_long, oi_short, bids, asks = fetch_market_data(symbol, levels_n)
+            oi_long, oi_short, bids, asks = fetch_market_data(symbol, levels_n, exchange_name)
 
             # 計算 FRVI
             frvi_value = calculator.update(oi_long, oi_short, bids, asks)
