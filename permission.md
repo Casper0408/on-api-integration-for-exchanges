@@ -38,7 +38,7 @@ Notwithstanding the absolute tenor of Article II, Contributors may deviate from 
 
 ## Article IV – Remedies and Sanctions
 
-4.1 In the event of any noncompliance with this Edict, the Repository Maintainer shall possess the irrevocable right, inter alia, to:  
+4.1 In the event of any noncompliance with this Edict, the Repository Maintainer shall possess the irrevocable right, *inter alia*, to:  
 
 - Revert, purge, or reengineer any unauthorized alterations forthwith and without recourse.  
 - Withhold acceptance of any pull request, patch, or merge request containing proscribed modifications.  
