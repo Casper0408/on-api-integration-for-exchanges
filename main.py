@@ -152,7 +152,7 @@ def fetch_market_data(symbol: str, levels_n: int, exchange_name: str) -> Tuple[
     Args:
         symbol:    永續合約代號（如 "BTCUSDT"）
         levels_n:  取前 N 層委託簿
-        exchane_name: 交易所名稱
+        exchane_name: 交易所名稱 (如 "binance")
 
     Returns:
         oi_long:  多單未平倉量（彙整後）
