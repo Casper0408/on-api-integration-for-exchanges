@@ -50,7 +50,7 @@ FRVI_t = sqrt( (ΔS_t)^2 + (Spread_t / Depth_t)^2 )
 
 1. 下載或複製本專案。  
 
-2. 在 `frvi_module_with_api.py` 中完成 `fetch_market_data()` 函式，實現跨交易所資料擷取與彙整。  
+2. 在 `main.py` 中完成 `fetch_market_data()` 函式，實現跨交易所資料擷取與彙整。  
 
 3. 執行程式：
    ```bash
@@ -99,3 +99,4 @@ def fetch_market_data(symbol: str, levels_n: int):
 - `symbol`：永續合約標的（預設 `"BTCUSDT"`）  
 - `levels_n`：計算深度時取前 N 層（預設 `5`）  
 - `poll_interval`：取樣間隔（秒，預設 `60`）
+- `exchange_name` :交易所名稱
