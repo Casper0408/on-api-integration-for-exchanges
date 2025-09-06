@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 """
-frvi_module_with_api.py
 
 計算永續合約資金費用波動性指數（Funding Rate Volatility Index, FRVI）。
 
